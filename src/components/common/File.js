@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import {
     Col,
-    Row
+    Row,
+    ProgressBar
 } from 'react-bootstrap';
 
 export default class File extends Component {
@@ -19,13 +20,10 @@ export default class File extends Component {
                                     <i className="fas fa-times pull-right"></i>
                                 </Col>
                                 <Col xs={12}>
-                                    <Row>
-                                        <Col xs={7} className="loader padding-left progressbar"><hr /></Col>
-                                        <Col xs={5} className="loader padding-right"><hr /></Col>
-                                    </Row>
+                                    <ProgressBar now={70} style={{ height: 5 }} />
                                 </Col>
                                 <Col xs={12} className="details">
-                                    <span>37% done</span>
+                                    <span>70% done</span>
                                     <span className="pull-right">90KB/sec</span>
                                 </Col>
                             </Row>
