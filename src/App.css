@@ -1,0 +1,67 @@
+body {
+  background: #6c5ce7;
+}
+
+.parent {
+  background: #fff;
+  padding: 30px;
+  box-shadow: 1px 1px 20px;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+}
+
+.parent h3 {
+  color: #2d3436;
+}
+
+.title {
+  border: 2px dashed #bbb;
+  padding: 55px 0;
+  background: #eee;
+}
+
+.fa-image {
+  font-size: 38px;
+  color: #bbb;
+}
+
+.size {
+  margin-left: 15px;
+}
+
+.pull-right {
+  float: right;
+}
+
+.details {
+  font-size: 13px;
+}
+
+.loader {
+  padding: 0;
+}
+
+.padding-left {
+  padding-left: 15px;
+}
+
+.padding-right {
+  padding-right: 15px;
+}
+
+.loader hr {
+  border-width: 5px;
+  margin: 5px 0;
+}
+
+.progressbar hr {
+  border-color: #0984e3;
+}
+
+.file-container {
+  padding-top: 10px;
+}
